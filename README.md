@@ -1,4 +1,4 @@
-# PageRankUsingSpark
+# MapReduceV/sSpark
 * This project compares MapReduce with Spark on three operations - single record lookup, filter and GroupBy
 * Both the spark and mapreduce jars were compiled separately and was deployed on an EC2 instance
 * The analysis was done on a 5GB dataset and was downloaded from S3
