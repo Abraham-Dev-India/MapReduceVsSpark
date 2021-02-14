@@ -4,16 +4,16 @@
 * The analysis was done on a 5GB dataset and was downloaded from S3
 
 
-* COMMANDS USED
+*******COMMANDS USED*********
 
-* SPARK COMMAND
+SPARK COMMAND
 spark2-submit --class pagerank.rddPagerank --master yarn --deploy-mode client spark2.jar /user/ec2-user/spark_assignment/input/yellow_tripdata* /user/ec2-user/spark_assignment/output/spark/single_row_lookup82
 
-* MapReduce Command
+MapReduce Command
 hadoop jar mr2.jar mapreduce_fetch2.MapReduceDriver /user/ec2-user/spark_assignment/input/yellow_tripdata* /user/ec2-user/spark_assignment/output/mapred/filter_mapreduce
 
 
-Job Run Time Comparison
+********** Job Run Time Comparison ***********
  
 Single Record Lookup 
 Map Reduce - 4Min 41sec
